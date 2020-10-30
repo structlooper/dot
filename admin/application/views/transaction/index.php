@@ -155,7 +155,7 @@
             },
             contentType : 'application/json',
             dataType: 'json',
-            data: JSON.stringify({"to": req, "notification": {"title":"New order arrived","body":"Order assined to you"}}),
+            data: JSON.stringify({"to": req, "notification": {"title":"New order arrived","body":"Order assined to you","type":"3","message":"Order assined to you"}}),
             success : function(response) {
                 console.log(req)
                 console.log(response);
